@@ -1,0 +1,69 @@
+/*BackGround*/
+body{
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-top: 60px;
+  }
+
+  .contenedorGlobal{
+    width: 100%;
+  }
+
+  .contenedor{
+    width: 100%;
+  }
+  
+  .col-sm-6{
+    width: 100%; 
+  }
+
+  /* images */
+#inicio{
+  border-radius: 50%; 
+  max-width: 100% ;
+  max-height: 100%;
+}
+
+#maya{
+  border-radius: 50%;  
+  max-width: 100% ;
+  max-height: 100%;
+}
+
+#jaider{
+  border-radius: 50%;
+  max-width: 100% ;
+  max-height: 100%;
+}
+#juanes{
+  border-radius: 50%; 
+  max-width: 100% ;
+  max-height: 100%;
+}
+
+#ivanna{
+  border-radius: 50%;
+  max-width: 100% ;
+  max-height: 100%;
+}
+
+#jaime{
+  border-radius: 50%;
+  max-width: 100% ;
+  max-height: 100%;
+}
+  
+
+
+/*Mantener fijo el nav*/
+#main-header {
+	height: fit-content;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  z-index: 1001;/* Evitar sobreposicion de ocntenido */
+  
+}
